@@ -482,14 +482,12 @@ img {
 }
 .customers-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   column-gap: 16px;
   row-gap: calc(var(--card-set-gap) * 3);
   justify-content: center;
 }
-.customers-li {
-  width: calc((100% - 16px) / 2);
-}
+
 .customers-item {
   width: 190px;
   height: 88px;
