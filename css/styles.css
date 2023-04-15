@@ -1069,7 +1069,6 @@ img {
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-
     gap: 24px;
   }
   .basement-logo {
@@ -1181,7 +1180,6 @@ img {
     gap: 16px;
     margin: auto;
     margin-top: 0;
-    margin-left: 24px;
 
     transition: background-color var(--timing-cubic);
   }
@@ -1483,7 +1481,7 @@ img {
     padding: 8px;
   }
   .footer-container3 {
-    display: block;
+    display: flex;
     width: 453px;
     height: 80px;
     padding-left: 80px;
@@ -1603,6 +1601,7 @@ img {
   .btn-footer:focus {
     background-color: var(--hover-color);
   }
+  /* CUSTOMERS */
   .customers {
     padding-top: 120px;
     padding-bottom: 120px;
