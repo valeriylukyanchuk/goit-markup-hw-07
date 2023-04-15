@@ -1059,7 +1059,7 @@ img {
   }
 
   .footer-container {
-    max-width: 1158px;
+    width: 582px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
