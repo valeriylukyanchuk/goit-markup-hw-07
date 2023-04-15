@@ -1497,6 +1497,7 @@ img {
   }
   .footer-content {
     flex-wrap: nowrap;
+    gap: 0;
   }
   .basement-logo {
     font-family: "Raleway", sans-serif;
