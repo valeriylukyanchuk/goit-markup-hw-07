@@ -129,7 +129,7 @@ img {
   .menu-container-modal {
     position: fixed;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-content: space-between;
     padding-left: 40px;
     padding-top: 80px;
@@ -189,6 +189,9 @@ img {
 
   .header-address-menu li:not(:last-child) {
     margin-bottom: 40px;
+  }
+  .header-address-menu {
+    margin-top: auto;
   }
 
   .address-link-mail {
@@ -1865,7 +1868,7 @@ img {
   top: 50%;
   left: 50%;
   max-width: 408px;
-  max-height: 584px;
+  min-height: 584px;
   padding: 72px 24px 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
