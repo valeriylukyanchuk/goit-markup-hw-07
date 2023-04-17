@@ -600,9 +600,7 @@ img {
     color: var(--background);
     margin-bottom: 16px;
   }
-  .label-sub {
-    min-width: 264px;
-  }
+
   .footer-input {
     border: 1px solid var(--background);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -616,6 +614,7 @@ img {
     color: var(--background);
     padding: 8px 16px;
     background-color: var(--brand-color);
+    margin-bottom: 16px;
   }
   .btn-footer {
     background-color: var(--accent-logo-color);
@@ -632,6 +631,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
+    margin-top: 16px;
     gap: 16px;
     margin: auto;
     transition: background-color var(--timing-cubic);
