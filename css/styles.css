@@ -192,6 +192,7 @@ img {
   }
   .header-address-menu {
     margin-top: auto;
+    margin-bottom: 48px;
   }
 
   .address-link-mail {
@@ -1877,7 +1878,6 @@ img {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--action);
   width: 100%;
-  height: 90%;
   overflow-y: auto;
 }
 
